@@ -1,0 +1,74 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(244, 237, 252);
+    
+}
+/* --------------Header section------------------------------------- */
+h1{
+    font-size: 52px;
+    color: rgb(95, 54, 141);
+}
+#header{
+    text-align: center;
+    padding: 32px;
+}
+#header img{
+
+    width: 300px;
+}
+/* --------------------------------------main section---------------------------------- */
+#main{
+    margin: 32px auto;
+    border-radius: 8px;
+    background-color: rgb(101, 93, 209);
+    padding: 32px;
+    width: 700px;
+    color: rgb(244, 237, 252);
+}
+#main ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(244, 237, 252);
+    padding: 4px;
+    border-radius: 2px 6px;
+}
+a:hover, a:active{
+    background-color: rgb(250, 212, 87);
+
+
+}
+.extra-import{
+    color: rgb(191, 238, 62);
+    border-color: rgb(247, 209, 85);
+    
+}
+.highlight{
+    font-weight: bold;
+}
+/* ------------------------footer section------------------------- */
+#footer{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#footer p{
+    color: rgb(133, 119, 212);
+    margin-top: 30px;
+}
+#footer a{
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: rgb(202, 199, 17);
+    color: sienna;
+}
+#footer a:hover{
+    background-color: rgb(112, 117, 44);
+}
